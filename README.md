@@ -5,14 +5,15 @@ Also auto-completes captcha challenges using 2captcha.<br />
 
 
 # instructions
-You need the following apis:<br />
+You need the following APIs:<br />
 --splinter<br />
 --BeautifulSoup<br />
 
 
 # how to configure and run
-Add course codes to check in the variable 'courses'<br />
+Edit variable 'courses' to be an array of the course codes you want to check <br />
 Add rosi login info in 'ID' and 'psw'<br />
-Add email from to and login info for 'from' address if you want to use email *must be gmail*. Otherwise just write 'return' right after the sendMail function (line 14)<br />
 
 Run courseAdd.py file<br />
+
+(Optional)Enable email by deleting line 15 in courseAdd.py. Add email 'from', 'to' and login info for 'from' address *'from' must be gmail*. 
