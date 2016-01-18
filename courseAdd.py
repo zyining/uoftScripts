@@ -12,6 +12,7 @@ browser.driver.set_page_load_timeout(10)  # 10 seconds
 
 
 def sendMail(msg):
+    return # disable email function by default, remove this line and fill following fieds to use gmail
     fromaddr = ''
     toaddrs = ''
 
