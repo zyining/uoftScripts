@@ -4,13 +4,13 @@ Script checks each course in list repeatedly and autoenrolls if a section is ope
 Also auto-completes captcha challenges using 2captcha.<br />
 
 
-# instructions
+# Instructions
 You need the following APIs:<br />
 --splinter<br />
 --BeautifulSoup<br />
 
 
-# how to configure and run
+# How to configure and run
 Edit variable 'courses' to be an array of the course codes you want to check <br />
 Add rosi login info in 'ID' and 'psw'<br />
 
